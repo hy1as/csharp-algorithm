@@ -1,4 +1,4 @@
-﻿var lengthOfSequence = int.Parse(Console.ReadLine());
+var lengthOfSequence = int.Parse(Console.ReadLine());
 var sequence = Array.ConvertAll(Console.ReadLine().Split(" "), int.Parse);
 var max = sequence.Max();
 var answer = new int[sequence.Length];
